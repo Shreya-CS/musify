@@ -1,0 +1,381 @@
+.child2 {
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.sub-cild-1 {
+    background-color: rg(12, 12, 12);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(163, 163, 163);
+    padding: 0 8px;
+    position: fixed;
+}
+
+.fa-chevron-left {
+    margin-left: 2rem;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.sign-up {
+    font-weight: 700;
+    font-size: 15px;
+    background: none;
+    color: rgb(163, 163, 163);
+    margin-right: 1rem;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.about {
+    font-weight: 700;
+    font-size: 15px;
+    background: none;
+    color: rgb(163, 163, 163);
+    margin-right: 1rem;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-left: 62%;
+}
+
+.about:hover {
+    background: rgb(47, 47, 47);
+    color: aliceblue;
+}
+
+.sign-up:hover {
+    background: rgb(47, 47, 47);
+    color: aliceblue;
+}
+
+.log-in {
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    background: aliceblue;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.menu {
+    position: sticky;
+}
+
+/*-----login------*/
+
+.login_body {
+    background: url(images/login_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.login_font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+
+.btn-block {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*-------sign up---------*/
+
+.child2 {
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 33px;
+}
+
+.sub-cild-1 {
+    background-color: rg(12, 12, 12);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(163, 163, 163);
+    padding: 0 8px;
+}
+
+.fa-chevron-left {
+    margin-left: 2rem;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.sign-up {
+    font-weight: 700;
+    font-size: 15px;
+    background: none;
+    color: rgb(163, 163, 163);
+    margin-right: 1rem;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.about {
+    font-weight: 700;
+    font-size: 15px;
+    background: none;
+    color: rgb(163, 163, 163);
+    margin-right: 1rem;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-left: 55%;
+}
+
+.about:hover {
+    background: rgb(47, 47, 47);
+    color: aliceblue;
+}
+
+.sign-up:hover {
+    background: rgb(47, 47, 47);
+    color: aliceblue;
+}
+
+.log-in {
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    background: aliceblue;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/*------contact------*/
+
+.contbody {
+    color: aliceblue;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.liveheading {
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 30%;
+    font-weight: 300;
+}
+
+.abtimage {
+    background-image: linear-gradient(to bottom, rgba(17, 26, 71, 0.52), rgba(36, 6, 29, 0.73), rgba(41, 41, 41, 0.8)), url('images/aboutus.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.aboutus {
+    display: grid;
+    background-color: black;
+    color: aliceblue;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo1 {
+    font-size: 25px;
+    background: white;
+    border-radius: 50%;
+    color: black;
+    padding: 6px 8px;
+}
+
+/*--------about us cards--------*/
+
+.abtcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.abtsubcard {
+    max-width: 1000px;
+    min-height: 100px;
+    margin-left: 5%;
+}
+
+.abtsubcard .subcard1 {
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.subcard1 .abtcardimg {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: 120px;
+
+}
+
+.abtsubcard .cardtext {
+    padding-top: 20px;
+    align-items: center;
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+
+.head1 {
+    margin-left: 40%;
+    margin-right: 30%;
+    padding-top: 1%;
+    align-items: center;
+}
+
+.content {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+
+}
+
+
+/*-------grid--------*/
+
+.borderline {
+    border-top: 0.5px solid whitesmoke;
+    border-bottom: 0.5px solid whitesmoke;
+}
+
+.grid {
+    display: grid;
+    grid: repeat(2, 200px) / auto-flow 400px;
+    margin-left: 20%;
+    margin-top: 5%;
+    gap: 27px;
+}
+
+.grid .subgrid {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin-left: 5%;
+    border: 1px solid;
+    border-radius: 1px;
+    box-sizing: border-box;
+
+
+}
+
+.subgrid:hover {
+    box-shadow: 0 0 10px 4px #5a5a5a;
+    transition: all .5s;
+    transform: scale(1.1);
+
+}
+
+.gridhead {
+
+    margin-top: 2%;
+    margin-left: 3%;
+    position: relative;
+    display: inline-flex;
+}
+
+.subgrid1 {
+    margin-top: 15%;
+    margin-left: -40%;
+    margin-right: 10%;
+    text-align: center;
+
+
+}
+
+.gridimg {
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 10%;
+    height: 40%;
+}
+
+/*-------contact us--------*/
+
+.contact {
+    padding: 40px 0;
+}
+
+.contact h1 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.contact-border {
+    width: 100px;
+    height: -5px;
+    margin: 40px auto;
+    background: #5a5a5a;
+
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #5a5a5a;
+    padding: 20px 40px;
+    outline: none;
+    color: #ffffff;
+    font-size: 80%;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #5a5a5a;
+}
+
+textarea-contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background-color: gray;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+    background: whitesmoke;
+}
+
+.contact-img {
+    background-image: linear-gradient(to bottom, rgba(17, 26, 71, 0.52), rgba(36, 6, 29, 0.73), rgba(41, 41, 41, 0.8)), url('images/aboutus.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
